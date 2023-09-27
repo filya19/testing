@@ -1,0 +1,167 @@
+:root{
+    --card-bg-color: #ffffff;
+}
+
+@media screen and (max-width: 991px){
+    .repressions{
+        min-height: calc(100vh - (9.375vmax));
+        padding: 30px 0;
+        background-color: var(--mobile-bg-color);
+    }
+    .page-title{
+        margin-bottom: 4.375vmax;
+    }
+    .cards{
+        gap: 20px;
+        margin: 0 20px;
+    }
+    .student-card{
+        border-radius: 5px;
+        width: 134px;
+        height: 185px;
+        padding: 10px 8px 15px;
+    }
+
+    .read-full{
+        height: 20%;
+        width: 70%;
+        top: 27.5%;
+        left: 13.5%;
+        font-size: 12px;
+        font-weight: 400;
+        border-radius: 5px;
+    }
+
+    .name{
+        font-size: 12px;
+        max-width: 100%;
+    }
+
+    .date{
+        font-size: 10px;
+        max-width: 100%;
+    }
+}
+
+
+
+
+@media screen and (min-width: 992px){
+    .repressions{
+        min-height: calc(100vh - (9.375vh));
+        padding: 3.472vmax 5.694vmax;
+        background-color: var(--default-bg-color);
+    }
+    .page-title{
+        font-family: Inter; /*fixit*/
+        font-size: 4.444vmax;
+        font-style: normal;
+        font-weight: 600;
+    }
+    .cards{
+        gap: min(25px,2.361vmax);
+        margin-top: 40px;
+    }
+
+    .student-card{
+        border-radius: 0.694vmax;
+        width: 18.333vmax;
+        height: 25.208vmax;
+        padding: 1.667vmax 1.042vmax 1.875vmax;
+    }
+
+    .read-full{
+        height: 20%;
+        width: 70%;
+        top: 27.5%;
+        left: 13.5%;
+        font-size: 1.250vmax;
+        font-weight: 400;
+        border-radius: 0.694vmax;
+    }
+
+    .name{
+        font-size: 1.389vmax;
+        max-width: 100%;
+    }
+
+    .date{
+        font-size: 1.250vmax;
+        max-width: 100%;
+    }
+
+}
+
+.repressions{
+    flex-direction: column;
+}
+
+.page-title{
+    color: var(--main-text-color);
+    text-align: center;
+}
+
+.cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; /* fixit */
+    }
+
+.card-container{
+    position: relative;
+}
+.student-card{
+        background-color: var(--card-bg-color);
+
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+
+        text-align: center;
+        color: var(--main-text-color);
+        font-family: var(--font-family-montserat);
+        font-style: normal;
+        white-space: nowrap;
+
+        transition: filter .1s linear;
+    }
+.card-container:hover{
+    filter: brightness(90%);
+}
+
+.student-image{
+    aspect-ratio: 1/1;
+}
+
+.read-full{
+        display: flex;
+        align-items:center;
+        justify-content:center;
+
+        position: absolute;
+        white-space: normal;
+
+        text-align: center;
+        font-family: var(--font-family-montserat);
+        color: rgba(60, 39, 35, 0);
+        background-color: rgba(238, 224, 220, 0);
+        transition: background-color, color .1s linear;
+}
+
+.card-container:hover .read-full{
+        color: var(--main-text-color);
+        background-color: rgba(238, 224, 220, 1);
+}
+
+.name{
+    overflow: hidden;
+    font-weight: 500;
+    text-overflow: ellipsis;
+
+}
+.date{
+    overflow: hidden;
+    font-weight: 400;
+    text-overflow: ellipsis;
+}

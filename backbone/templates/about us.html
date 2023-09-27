@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="be">
+<head>
+    {% load static %}
+    {% load i18n %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
+    <title>{% translate 'Пра нас' %} </title>
+</head>
+{% include 'header.html' %}
+<body style="background-color: #FCF2EF">
+  <div class="wrap bright" id="about-us">
+    <h1 class="main-title">{%  translate 'Пра нас' %}</h1>
+    <div class="txt-photo">
+      <div class="wrap about">
+
+        <h3 class="about-descript">{% translate 'Наш праект створаны пры падтрымцы Вольнага прафсаюзу БДУ, Беларускага студэнцтва Чэхіі, Маладых хрысціянскіх дэмакратаў і Студэнцкай Прысутнасці.'%}</h3>
+        <h3 class="about-descript"><b>{% translate 'Місія праекта'%}</b>{% translate ' — аказанне ўсей неабходнай дапамогі студэнтам/кам, садзейнасць у хуткай рэабілітацыі студэнтаў/к пасля выхаду з турмы, падтрымка пасля адлічэння і вяртання ў акадэмічнае і грамадскае асяроддзе.' %}</h3>
+      </div>
+      <img class="about-image" src="{% static '/img/desktop-img/about_us_1.jpg' %}">
+    </div>
+  </div>
+  <div class="wrap dark" id="about-us2">
+      <div class="txt-photo">
+          <div class="wrap about">
+              <h3 class="about-descript">{% translate 'Мы аказваем дапамогу ў залежнасці ад канкрэтнага запыту.'%}</h3>
+              <h3 class="about-descript"><b>{% translate 'Займаемся пошукам і пакрыццём' %}</b>  {% translate ' псіхалагічных, юрыдычных, медыцынскіх паслуг.'%}</h3>
+              <h3 class="about-descript"><b>{% translate 'Кансультуем і дапамагаем' %}</b> {% translate ' на працягу ўсяго перыяду ад выезду з краіны да адаптацыі і легалізацыі за мяжой. Аказваем дапамогу з тэрміновым выездам з Беларусі.'%}</h3>
+              <h3 class="about-descript"><b>{% translate 'Ствараем гайды' %}</b>{% translate ' для адаптацыі пасля турмы, адаптацыі ў іншай краіне, гайды па бяспецы і інш.'%}</h3>
+              <h3 class="about-descript"><b>{% translate 'Каардынуем' %}</b>{% translate ' паміж існуючымі ініцыятывамі, праграмамі, стыпендыямі, фондамі.'%}</h3>
+              <h3 class="about-descript">{% translate 'Акрамя гэтага, '%}<b>{% translate 'збіраем інфармацыю' %}</b> {% translate 'аб рэпрэсіях над студэнтамі/камі і' %} <b>{% translate 'вядзем статыстыку.' %}</b></h3>
+          </div>
+      </div>
+  </div>
+  <div class="wrap bright" id="about-us3">
+      <div class="txt-photo">
+      <img class="about-image" src="{% static '/img/desktop-img/about_us_2.jpg' %}" >
+      <div class="wrap about">
+        <h3 class="about-descript"><b>{% translate 'Да нас могуць звярнуцца за дапамогай:'%}</b></h3>
+        <h3 class="about-descript">{% translate 'Студэнты/кі вышэйшых, сярэдніх спецыяльных і прафесійна тэхнічных устаноў адукацыі, якія прайшлі ці праходзяць праз палітычна матываваны крымінальны, адміністрацыйны і дысцыплінарны пераслед у 2020-2023 гадах, якія знаходзяцца ў Беларусі і па-за яе межамі,а таксама іх родныя;'%}</h3>
+        <h3 class="about-descript">{% translate 'Актывісты/кі, валанцёры/кі, якія ўжо займаюцца дапамогай студэнтам і якія не акумуляваныя ў адзіныя праекты.'%}</h3>
+      </div>
+    </div>
+      <div class="wrap" id="buttons-wrap">
+        <a href="https://forms.gle/v1MQsUgK2xA7T6nm6" class="btn main-btn dark" >{% translate 'Стаць валантэрам'%}</a>
+        <a href="https://bmc.link/stud4stud" class="btn main-btn bright" >{% translate 'Падтрымаць праэкт'%} </a>
+      </div>
+      <div class="wrap about">
+          <div  class="txt-photo">
+            <h3 class="about-descript">{% translate 'Рады супрацоўніцтву з беларускімі і міжнароднымі арганізацыямі, якія займаюцца дапамогай розным групам, якія пацярпелі ад палітычнага крызісу 2020 года ў Беларусі.'%}</h3>
+          </div>
+      </div>
+  </div>
+</body>
+{% include 'footer.html' %}
+</html>

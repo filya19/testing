@@ -1,0 +1,3 @@
+*.mo
+s4s-env/
+*.sqlite3

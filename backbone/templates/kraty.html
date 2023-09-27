@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% load i18n %}
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/kraty.css' %}"/>
+    <title>Нужно изменить Вязні "кратаў"</title>
+</head>
+{% include 'header.html' %}
+<body>
+    <div class="repressions">
+        <h1 class="page-title">Вязні</h1>
+        <div class="cards">
+            {% for student in student_list %}
+            <a href = "{% url 'kraty_detail' student.slug%}" class="card-container">
+                <div class="student-card">
+                    <img class="student-image" src={{student.image.url}}>
+                    <h3 class="student name">{{student.name}} {{student.surname}}</h3>
+                    <h3 class="student date">Дата затрымання:<br>{{student.date_of_conclusion}}</h3>
+                </div>
+                <span class="read-full">Чытаць падрабязней</span>
+            </a>
+             {% endfor %}
+        </div>
+    </div>
+</body>
+    {% include 'footer.html' %}
+</html>

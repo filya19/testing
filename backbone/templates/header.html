@@ -1,0 +1,28 @@
+{% load i18n %}
+{% load static %}
+<header>
+  <a href={% url 'index' %} class="logo" style="background-image: url({% static 'img/logo-s4s.png' %})"></a>
+  <div class="container" id="burger-container">
+    <input type="checkbox" id="burger">
+    <label for="burger"></label>
+    <div class="menu">
+      <form class="language_switcher">{% csrf_token %}
+        <input class="lang-input" type="radio" name="lang" id="en_lang" value="en">
+        <label class="btn language dark-section" for="en_lang">EN</label>
+        <input class="lang-input" type="radio" name="lang" id="by_lang" checked value="by">
+        <label class="btn language dark-section" for="by_lang">BY</label>
+      </form>
+      <div class="menu-group">
+        <a href="https://bmc.link/stud4stud" class="btn main-menu dark" >{% translate "Падтрымаць праэкт"%}</a>
+        <a href="https://forms.gle/TmtSPhBxYtfaUTtp6" class="btn main-menu bright" >{% translate "Мне патрэбна дапамога"%}</a>
+        <a href="https://forms.gle/v1MQsUgK2xA7T6nm6" class="btn main-menu dark" >{% translate "Стаць валантэрам"%}</a>
+      </div>
+      <div class="menu-group sections">
+        <a href="#" class="btn section dark-section">{% translate "Аналітыка Рэпрэсій"%}</a>
+        <a href="{% url 'about_us' %}" class="btn section bright-section">{% translate "Пра нас"%}</a>
+        <a href="{% url 'kraty' %}" class="btn section dark-section">{% translate "Рэпрэсіі ў Асобах"%}</a>
+      </div>
+      {% include 'footer.html' %}
+    </div>
+  </div>
+</header>

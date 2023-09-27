@@ -1,0 +1,130 @@
+:root{
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    text-transform: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container.profile{
+    width: 88%;
+    display: flex;
+    align-items: center;
+}
+
+.name{
+    color: var(--main-text-color);
+    font-family: var(--font-family-syncopate);
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.profile-img{
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+}
+
+.image-text{
+    display: flex;
+}
+
+.short-info{
+    display: flex;
+    flex-direction: column;
+    color: var(--main-text-color);
+    font-family: var(--font-family-montserat);
+}
+
+.main-text{
+    color: var(--main-text-color);
+    font-family: var(--font-family-montserat);
+}
+
+@media screen and (max-width: 991px){
+    body{
+        background-color: var(--mobile-bg-color);
+    }
+
+    .container.profile{
+        flex-direction: column;
+        margin: 30px 0;
+        gap: 3.125vmax; /*20px*/
+    }
+
+    .name{
+        font-size: 3.125vmax; /*20px*/
+    }
+
+    .image-text{
+        gap: 3.125vmax; /*20px*/
+        flex-direction: column;
+    }
+
+    .short-info{
+        font-size: 2.5vmax; /*16px;*/
+        gap: 5px;
+    }
+
+    .main-text{
+        font-size: 2.5vmax; /*16px;*/
+    }
+
+    #days-in-prison{
+        margin-top: 1vh;
+    }
+
+}
+
+@media screen and (min-width: 992px){
+    body{
+        background-color: var(--default-bg-color);
+        min-height: 100vh;
+        justify-content: space-between;
+    }
+
+
+    .container.profile{
+        min-height: 80%;
+        margin: 30px 0;
+        flex-direction: column;
+    }
+
+    .name{
+        font-size: 4.2vmax; /*60px*/
+    }
+
+    .image-text{
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 3vmax; /*42px;*/
+        margin: 3vh 0;
+    }
+
+    .profile-img{
+        max-width: 40%;
+    }
+
+    .short-info{
+        font-size: 1.667vmax; /*24px;*/
+        gap: 5px;
+    }
+
+    .main-text{
+        font-size: 1.667vmax; /*24px;*/
+    }
+
+    #days-in-prison{
+        margin-top: 1vh;
+    }
+}

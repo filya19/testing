@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+    {% load static %}
+    {% load i18n %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href={% static 'css/styles.css' %}/>
+    <title>Нужно изменить Галоўная старонка</title>
+
+</head>
+<body>
+    {% include 'header.html' %}
+    <div class="wrap" id="wrap-1">
+        <h1 class="main-title">students for students</h1>
+        <h3 class="main-descript">Наш праект — гэта сэрвісная платформа для аказання дапамогі рэпрэсаваным беларускім студэнтам/студэнткам
+        </h3>
+        <div class="wrap btn">
+            <a href="https://forms.gle/TmtSPhBxYtfaUTtp6" class="btn main-btn dark">мне патрэбна дапамога</a>
+            <a href="https://bmc.link/stud4stud" class="btn main-btn bright">падтрымаць праект</a>
+        </div>
+    </div>
+    <div class="wrap" id="wrap-2">
+        <div class="wrap text">
+            <h1 class="title-number">77</h1>
+            <h2 class="descript red uppercase">СТУДЭНТАў/К I НАВУЧЭНЦАў РОЗНЫХ УСТАНОў ЗАРАЗ АДБЫВАЮЦЬ ПАКАРАННЕ У БЕЛАРУСI</h2>
+        </div>
+        <div class="wrap stat">
+            <div class="wrap fact">
+                <h2 class="stat-number red ">49</h2>
+                <h4 class="stat-text mont lowercase">Прызнаныя <br> <span class="uppercase">ЭКСТРЭМICTAMI</span>
+                </h4>
+            </div>
+            <div class="wrap fact">
+                <h2 class="stat-number red">54</h2>
+                <h4 class="stat-text mont lowercase">
+                    Сядзяць у <br> <span class="uppercase">калоніях</span>
+                </h4>
+            </div>
+            <div class="wrap fact">
+                <h2 class="stat-number red">9</h2>
+                <h4 class="stat-text mont lowercase">
+                    Прызнаныя <br> <span class="uppercase">тэрарыстамi</span>
+                </h4>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="wrap" id="wrap-3">
+        <h1 class="main-title">топ абсурду</h1>
+        <ul class="mont">
+            <li class="list-item">
+                «У думках падтрымліваў мітынгоўцаў, аднак удзел не прымаў»*<p class="endnote">*такая фармуліроўка была ў пратаколе абвінавачвання выкладчыка БДУ</p></li>
+            <li class="list-item">Сем гадоў пазбаўлення волі для беларускі за каментар у Telegram</li>
+            <li class="list-item">Затрыманне і штраф за букет у бчб-колерах</li>
+            <li class="list-item">Затрыманне і штраф за букет у бчб-колерах</li>
+        </ul>
+    </div>
+
+    <div class="wrap" id="wrap-4">
+        <div class="table-container">
+            <h1 class="main-title">ВIДЫ РЭПРЭСIЙ</h1>
+            <div id="table">
+                <ul>
+                    <div class="column-container">
+                        <li>пазбаўленне і абмежаванне свабод</li>
+                        <li>палітычна матываваныя пагрозы</li>
+                        <li>адлічэнне, пазбаўленне стыпендыі</li>
+                        <li>фізічны і псіхалагічны гвалт</li>
+                    </div>
+                    <div class="line"></div>
+                    <div class="column-container">
+                        <li>заўвагі ў асабістай справе</li>
+                        <li>выпісванне штрафаў</li>
+                        <li>прымус да запісу “пакаяннага відэа”</li>
+                        <li>прымус да ўдзелу ў праўладных мерапрыемствах</li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+    {% include 'footer.html' %}
+</body>
+</html>

@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# fangel
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-27 22:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\backbone\models.py:37
+msgid "Дзён за кратамi: "
+msgstr "Days behind bars: "
+
+#: .\backbone\models.py:38
+msgid "Цалкам адбыў пакаранне"
+msgstr "Completely served his sentence"
+
+#: .\backbone\templates\about us.html:14 us.html:19
+#: .\backbone\templates\header.html:22
+msgid "Пра нас"
+msgstr "About us"
+
+#: .\backbone\templates\about us.html:23
+msgid ""
+"Наш праект створаны пры падтрымцы Вольнага прафсаюзу БДУ, Беларускага "
+"студэнцтва Чэхіі, Маладых хрысціянскіх дэмакратаў і Студэнцкай Прысутнасці."
+msgstr ""
+"Our project is created with the support of the Free Trade Union of BSU, "
+"Belarusian Students in the Czech Republic, Young Christian Democrats, and "
+"Student Presence."
+
+#: .\backbone\templates\about us.html:24
+msgid "Місія праекта"
+msgstr "The mission of the project"
+
+#: .\backbone\templates\about us.html:24
+msgid ""
+" — аказанне ўсей неабходнай дапамогі студэнтам/кам, садзейнасць у хуткай "
+"рэабілітацыі студэнтаў/к пасля выхаду з турмы, падтрымка пасля адлічэння і "
+"вяртання ў акадэмічнае і грамадскае асяроддзе."
+msgstr ""
+" is to provide comprehensive assistance to students, actively participate in "
+"the fast rehabilitation of students after their release from prison, support "
+"them after their expulsion, and facilitate their return to academic and "
+"social environments"
+
+#: .\backbone\templates\about us.html:32
+msgid "Мы аказваем дапамогу ў залежнасці ад канкрэтнага запыту."
+msgstr "We provide assistance based on specific requests."
+
+#: .\backbone\templates\about us.html:33
+msgid "Займаемся пошукам і пакрыццём"
+msgstr ""
+
+#: .\backbone\templates\about us.html:33
+msgid " псіхалагічных, юрыдычных, медыцынскіх паслуг."
+msgstr ""
+
+#: .\backbone\templates\about us.html:34
+msgid "Кансультуем і дапамагаем"
+msgstr "We offer consultation and support"
+
+#: .\backbone\templates\about us.html:34
+msgid ""
+" на працягу ўсяго перыяду ад выезду з краіны да адаптацыі і легалізацыі за "
+"мяжой. Аказваем дапамогу з тэрміновым выездам з Беларусі."
+msgstr ""
+" throughout the entire period, from leaving the country to adaptation and "
+"legalization abroad. We also assist with urgent departures from Belarus."
+
+#: .\backbone\templates\about us.html:35
+msgid "Ствараем гайды"
+msgstr "Create guides"
+
+#: .\backbone\templates\about us.html:35
+msgid ""
+" для адаптацыі пасля турмы, адаптацыі ў іншай краіне, гайды па бяспецы і інш."
+msgstr ""
+" for post-prison adaptation, adaptation in other countries, safety guides, "
+"and more."
+
+#: .\backbone\templates\about us.html:36
+msgid "Каардынуем"
+msgstr "Coordinate"
+
+#: .\backbone\templates\about us.html:36
+msgid " паміж існуючымі ініцыятывамі, праграмамі, стыпендыямі, фондамі."
+msgstr " with existing initiatives, programs, scholarships, and funds."
+
+#: .\backbone\templates\about us.html:37
+msgid "Акрамя гэтага, "
+msgstr "Additionally, "
+
+#: .\backbone\templates\about us.html:37
+msgid "збіраем інфармацыю"
+msgstr "collect information"
+
+#: .\backbone\templates\about us.html:37
+msgid "аб рэпрэсіях над студэнтамі/камі і"
+msgstr "on repression against students"
+
+#: .\backbone\templates\about us.html:37
+msgid "вядзем статыстыку."
+msgstr "keep statistics"
+
+#: .\backbone\templates\about us.html:45
+msgid "Да нас могуць звярнуцца за дапамогай:"
+msgstr ""
+
+#: .\backbone\templates\about us.html:46
+msgid ""
+"Студэнты/кі вышэйшых, сярэдніх спецыяльных і прафесійна тэхнічных устаноў "
+"адукацыі, якія прайшлі ці праходзяць праз палітычна матываваны крымінальны, "
+"адміністрацыйны і дысцыплінарны пераслед у 2020-2023 гадах, якія знаходзяцца "
+"ў Беларусі і па-за яе межамі,а таксама іх родныя;"
+msgstr ""
+"Students from higher, secondary specialized, and vocational-technical "
+"educational institutionswho have undergone or are undergoing politically "
+"motivated criminal, administrative, and disciplinary persecution in "
+"2020-2023, both in and outside Belarus, as well as their families"
+
+#: .\backbone\templates\about us.html:47
+msgid ""
+"Актывісты/кі, валанцёры/кі, якія ўжо займаюцца дапамогай студэнтам і якія не "
+"акумуляваныя ў адзіныя праекты."
+msgstr ""
+"Activists and volunteers who are already involved in assisting students and "
+"are not limited to a single project"
+
+#: .\backbone\templates\about us.html:51 .\backbone\templates\header.html:18
+msgid "Стаць валантэрам"
+msgstr "Become a volunteer"
+
+#: .\backbone\templates\about us.html:52 .\backbone\templates\header.html:16
+msgid "Падтрымаць праэкт"
+msgstr "Support the project"
+
+#: .\backbone\templates\about us.html:56
+msgid ""
+"Рады супрацоўніцтву з беларускімі і міжнароднымі арганізацыямі, якія "
+"займаюцца дапамогай розным групам, якія пацярпелі ад палітычнага крызісу "
+"2020 года ў Беларусі."
+msgstr ""
+"We are open to collaboration with Belarusian and international organizations "
+"thatprovide assistance to various groups affected by the political crisis in "
+"Belarus in 2020."
+
+#: .\backbone\templates\header.html:17
+msgid "Мне патрэбна дапамога"
+msgstr "Need help"
+
+#: .\backbone\templates\header.html:21
+msgid "Аналітыка Рэпрэсій"
+msgstr "Repressions"
+
+#: .\backbone\templates\header.html:23
+msgid "Рэпрэсіі ў Асобах"
+msgstr "People"
